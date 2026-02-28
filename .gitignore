@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.env
+
+# Node / React
+node_modules/
+dist/
+.next/
+*.log
+.DS_Store
+
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+*.apk
+*.ipa
+
+# Docker
+*.pid
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Secrets
+*.pem
+*.key
+ssl/
+
+# DB
+*.db
+*.sqlite3
+
+# Logs
+logs/
+*.log

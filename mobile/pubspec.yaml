@@ -1,0 +1,47 @@
+name: crypto_paper_trading
+description: Professional Crypto Paper Trading App — Spot & Futures simulation with real market data.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # State management
+  flutter_riverpod: ^2.5.1
+  # HTTP & WebSocket
+  dio: ^5.4.1
+  web_socket_channel: ^2.4.0
+  # Charts
+  fl_chart: ^0.67.0
+  # Storage
+  flutter_secure_storage: ^9.0.0
+  shared_preferences: ^2.2.3
+  # Auth
+  google_sign_in: ^6.2.1
+  # UI
+  google_fonts: ^6.2.1
+  flutter_svg: ^2.0.10+1
+  cached_network_image: ^3.3.1
+  shimmer: ^3.0.0
+  # Utils
+  intl: ^0.19.0
+  uuid: ^4.4.0
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.9
+  freezed: ^2.5.2
+  json_serializable: ^6.7.1
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
