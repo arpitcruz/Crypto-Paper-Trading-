@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0A0A0F"/>
+      <stop offset="100%" stop-color="#0D0D14"/>
+    </linearGradient>
+    <linearGradient id="buyBtn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#22C55E"/>
+      <stop offset="100%" stop-color="#16A34A"/>
+    </linearGradient>
+    <linearGradient id="sellBtnDim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#161622"/>
+      <stop offset="100%" stop-color="#111118"/>
+    </linearGradient>
+    <linearGradient id="priceGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="390" height="844" rx="44" fill="url(#bg2)"/>
+
+  <!-- Status bar -->
+  <text x="24" y="30" fill="#F1F5F9" font-family="SF Pro Display, Inter, sans-serif" font-size="14" font-weight="600">9:41</text>
+  <text x="340" y="30" fill="#F1F5F9" font-family="SF Pro Display, Inter, sans-serif" font-size="13">●●●</text>
+
+  <!-- App bar with symbol -->
+  <rect x="0" y="44" width="390" height="62" fill="#0A0A0F"/>
+  <!-- Back arrow -->
+  <text x="24" y="80" fill="#94A3B8" font-family="SF Pro Display, Inter, sans-serif" font-size="20">←</text>
+  <text x="56" y="74" fill="#F1F5F9" font-family="SF Pro Display, Inter, sans-serif" font-size="18" font-weight="700">BTC/USDT</text>
+  <text x="56" y="94" fill="#22C55E" font-family="SF Pro Display, Inter, sans-serif" font-size="13" font-weight="600">$67,234.50</text>
+  <!-- Star icon -->
+  <text x="358" y="78" fill="#94A3B8" font-family="SF Pro Display, Inter, sans-serif" font-size="18" text-anchor="middle">☆</text>
+
+  <!-- Spot / Futures tabs -->
+  <rect x="0" y="106" width="390" height="44" fill="#111118"/>
+  <rect x="0" y="106" width="390" height="1" fill="#1F2033"/>
+  <rect x="0" y="149" width="390" height="1" fill="#1F2033"/>
+  <!-- Spot tab active -->
+  <rect x="0" y="107" width="195" height="43" fill="transparent"/>
+  <text x="97" y="133" fill="#F1F5F9" font-family="SF Pro Display, Inter, sans-serif" font-size="14" font-weight="600" text-anchor="middle">Spot</text>
+  <rect x="0" y="147" width="195" height="2" fill="#3B82F6"/>
+  <!-- Futures tab -->
+  <text x="293" y="133" fill="#475569" font-family="SF Pro Display, Inter, sans-serif" font-size="14" text-anchor="middle">Futures</text>
+
+  <!-- Buy / Sell toggle -->
+  <rect x="16" y="161" width="172" height="44" rx="8" fill="url(#buyBtn)"/>
+  <text x="102" y="188" fill="white" font-family="SF Pro Display, Inter, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Buy / Long</text>
+  <rect x="202" y="161" width="172" height="44" rx="8" fill="url(#sellBtnDim)" stroke="#1F2033" stroke-width="1"/>
+  <text x="288" y="188" fill="#94A3B8" font-family="SF Pro Display, Inter, sans-serif" font-size="14" font-weight="600" text-anchor="middle">Sell / Short</text>
+
+  <!-- Order type chips -->
+  <rect x="16" y="217" width="76" height="30" rx="6" fill="#3B82F6" fill-opacity="0.2" stroke="#3B82F6" stroke-width="1"/>
+  <text x="54" y="237" fill="#3B82F6" font-family="SF Pro Display, Inter, sans-serif" font-size="13" text-anchor="middle">Market</text>
+  <rect x="100" y="217" width="68" height="30" rx="6" fill="transparent" stroke="#1F2033" stroke-width="1"/>
+  <text x="134" y="237" fill="#475569" font-family="SF Pro Display, Inter, sans-serif" font-size="13" text-anchor="middle">Limit</text>
+  <rect x="176" y="217" width="90" height="30" rx="6" fill="transparent" stroke="#1F2033" stroke-width="1"/>
+  <text x="221" y="237" fill="#475569" font-family="SF Pro Display, Inter, sans-serif" font-size="13" text-anchor="middle">Stop-Limit</text>
+
+  <!-- Quantity input -->
+  <rect x="16" y="261" width="358" height="52" rx="12" fill="#111118" stroke="#1F2033" stroke-width="1"/>
+  <text x="30" y="282" fill="#94A3B8" font-family="SF Pro Display, Inter, sans-serif" font-size="12">Quantity</text>
+  <text x="30" y="302" fill="#F1F5F9" font-family="SF Pro Display, Inter, sans-serif" font-size="16" font-weight="500">0.001</text>
+  <text x="358" y="292" fill="#94A3B8" font-family="SF Pro Display, Inter, sans-serif" font-size="13" text-anchor="end">BTC</text>
+
+  <!-- TP/SL row -->
+  <rect x="16" y="325" width="172" height="52" rx="12" fill="#111118" stroke="#1F2033" stroke-width="1"/>
+  <text x="30" y="345" fill="#22C55E" font-family="SF Pro Display, Inter, sans-serif" font-size="11">Take Profit</text>
+  <text x="30" y="365" fill="#F1F5F9" font-family="SF Pro Display, Inter, sans-serif" font-size="15" font-weight="500">70,000</text>
+  <rect x="202" y="325" width="172" height="52" rx="12" fill="#111118" stroke="#1F2033" stroke-width="1"/>
+  <text x="216" y="345" fill="#EF4444" font-family="SF Pro Display, Inter, sans-serif" font-size="11">Stop Loss</text>
+  <text x="216" y="365" fill="#F1F5F9" font-family="SF Pro Display, Inter, sans-serif" font-size="15" font-weight="500">64,000</text>
+
+  <!-- Order summary -->
+  <rect x="16" y="391" width="358" height="100" rx="12" fill="#111118" stroke="#1F2033" stroke-width="1"/>
+  <text x="30" y="412" fill="#94A3B8" font-family="SF Pro Display, Inter, sans-serif" font-size="12">Order Summary</text>
+  <text x="30" y="436" fill="#94A3B8" font-family="SF Pro Display, Inter, sans-serif" font-size="13">Cost</text>
+  <text x="358" y="436" fill="#F1F5F9" font-family="SF Pro Display, Inter, sans-serif" font-size="13" font-weight="600" text-anchor="end">$67.23 USDT</text>
+  <text x="30" y="458" fill="#94A3B8" font-family="SF Pro Display, Inter, sans-serif" font-size="13">Est. Fee (0.1%)</text>
+  <text x="358" y="458" fill="#F59E0B" font-family="SF Pro Display, Inter, sans-serif" font-size="13" font-weight="600" text-anchor="end">$0.07 USDT</text>
+  <text x="30" y="480" fill="#94A3B8" font-family="SF Pro Display, Inter, sans-serif" font-size="13">Available</text>
+  <text x="358" y="480" fill="#22C55E" font-family="SF Pro Display, Inter, sans-serif" font-size="13" font-weight="600" text-anchor="end">$9,932.77 USDT</text>
+
+  <!-- Place order button -->
+  <rect x="16" y="505" width="358" height="54" rx="12" fill="url(#buyBtn)"/>
+  <text x="195" y="536" fill="white" font-family="SF Pro Display, Inter, sans-serif" font-size="16" font-weight="700" text-anchor="middle">Buy BTC</text>
+
+  <!-- Percentage quick select -->
+  <text x="30" y="580" fill="#94A3B8" font-family="SF Pro Display, Inter, sans-serif" font-size="12">Quick %</text>
+  <rect x="16" y="589" width="78" height="28" rx="6" fill="#1F2033"/>
+  <text x="55" y="607" fill="#94A3B8" font-family="SF Pro Display, Inter, sans-serif" font-size="12" text-anchor="middle">25%</text>
+  <rect x="102" y="589" width="78" height="28" rx="6" fill="#1F2033"/>
+  <text x="141" y="607" fill="#94A3B8" font-family="SF Pro Display, Inter, sans-serif" font-size="12" text-anchor="middle">50%</text>
+  <rect x="188" y="589" width="78" height="28" rx="6" fill="#1F2033"/>
+  <text x="227" y="607" fill="#94A3B8" font-family="SF Pro Display, Inter, sans-serif" font-size="12" text-anchor="middle">75%</text>
+  <rect x="274" y="589" width="100" height="28" rx="6" fill="#3B82F6" fill-opacity="0.2" stroke="#3B82F6" stroke-width="1"/>
+  <text x="324" y="607" fill="#3B82F6" font-family="SF Pro Display, Inter, sans-serif" font-size="12" text-anchor="middle">100%</text>
+
+  <!-- Bottom nav bar -->
+  <rect x="0" y="750" width="390" height="94" fill="#111118"/>
+  <rect x="0" y="750" width="390" height="1" fill="#1F2033"/>
+  <text x="39" y="779" fill="#475569" font-family="SF Pro Display, Inter, sans-serif" font-size="16" text-anchor="middle">📊</text>
+  <text x="39" y="798" fill="#475569" font-family="SF Pro Display, Inter, sans-serif" font-size="10" text-anchor="middle">Markets</text>
+  <text x="117" y="779" fill="#3B82F6" font-family="SF Pro Display, Inter, sans-serif" font-size="16" text-anchor="middle">🔄</text>
+  <text x="117" y="798" fill="#3B82F6" font-family="SF Pro Display, Inter, sans-serif" font-size="10" text-anchor="middle" font-weight="600">Trade</text>
+  <text x="195" y="779" fill="#475569" font-family="SF Pro Display, Inter, sans-serif" font-size="16" text-anchor="middle">📈</text>
+  <text x="195" y="798" fill="#475569" font-family="SF Pro Display, Inter, sans-serif" font-size="10" text-anchor="middle">Positions</text>
+  <text x="273" y="779" fill="#475569" font-family="SF Pro Display, Inter, sans-serif" font-size="16" text-anchor="middle">👛</text>
+  <text x="273" y="798" fill="#475569" font-family="SF Pro Display, Inter, sans-serif" font-size="10" text-anchor="middle">Wallet</text>
+  <text x="351" y="779" fill="#475569" font-family="SF Pro Display, Inter, sans-serif" font-size="16" text-anchor="middle">👤</text>
+  <text x="351" y="798" fill="#475569" font-family="SF Pro Display, Inter, sans-serif" font-size="10" text-anchor="middle">Profile</text>
+  <rect x="155" y="820" width="80" height="4" rx="2" fill="#94A3B8" fill-opacity="0.4"/>
+  <rect x="1" y="1" width="388" height="842" rx="43" fill="none" stroke="#2A2A3E" stroke-width="1"/>
+</svg>
