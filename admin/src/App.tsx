@@ -5,6 +5,7 @@ import DashboardPage from './pages/DashboardPage'
 import UsersPage from './pages/UsersPage'
 import PositionsPage from './pages/PositionsPage'
 import LogsPage from './pages/LogsPage'
+import MarketsPage from './pages/MarketsPage'
 import Layout from './components/Layout'
 
 function ProtectedRoute({ children }: { children: React.ReactNode }) {
@@ -26,6 +27,7 @@ export default function App() {
         }
       >
         <Route index element={<DashboardPage />} />
+        <Route path="markets" element={<MarketsPage />} />
         <Route path="users" element={<UsersPage />} />
         <Route path="positions" element={<PositionsPage />} />
         <Route path="logs" element={<LogsPage />} />

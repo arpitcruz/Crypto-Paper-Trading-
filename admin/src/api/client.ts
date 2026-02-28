@@ -40,3 +40,6 @@ export const getAllPositions = (params?: object) => api.get('/admin/positions', 
 
 // Market
 export const getAllTickers = () => api.get('/market/tickers')
+export const getTicker = (symbol: string) => api.get(`/market/ticker/${symbol}`)
+export const getKlines = (symbol: string, interval = '1h', limit = 200) =>
+  api.get(`/market/klines/${symbol}`, { params: { interval, limit } })
